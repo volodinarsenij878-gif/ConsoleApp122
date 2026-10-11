@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Program79
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            bool result = !(5 != 5) && ((3 >= 3) || (10 + 0 == 1));
+            Console.WriteLine(result); // True
+        }
+    }
+}
